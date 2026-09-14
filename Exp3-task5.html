@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Alerts and Pagination</title>
+
+```
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+```
+
+</head>
+
+<body>
+
+```
+<!-- Page Heading -->
+<div class="container mt-4">
+
+    <h1 class="text-center">Alerts & Pagination</h1>
+
+    <!-- Success Alert -->
+    <div class="alert alert-success mt-4 alert-dismissible fade show" role="alert">
+
+        <strong>Success!</strong>
+        Your operation was completed successfully.
+
+        <!-- Close Button -->
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close">
+        </button>
+
+    </div>
+
+
+    <!-- Warning Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+
+        <strong>Warning!</strong>
+        Please check your information before continuing.
+
+        <!-- Close Button -->
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close">
+        </button>
+
+    </div>
+
+
+    <!-- Information Alert -->
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+
+        <strong>Information:</strong>
+        You are currently viewing page 1.
+
+        <!-- Close Button -->
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="alert"
+                aria-label="Close">
+        </button>
+
+    </div>
+
+
+    <!-- Page Content -->
+    <h2 class="mt-5">Products - Page 1</h2>
+
+    <p>
+        This page contains products 1 to 10.
+        Use the pagination below to navigate through the pages.
+    </p>
+
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation">
+
+        <ul class="pagination justify-content-center mt-4">
+
+            <!-- Previous -->
+            <li class="page-item disabled">
+                <a class="page-link" href="#">Previous</a>
+            </li>
+
+            <!-- Page 1 -->
+            <li class="page-item active">
+                <a class="page-link" href="#">1</a>
+            </li>
+
+            <!-- Page 2 -->
+            <li class="page-item">
+                <a class="page-link" href="#">2</a>
+            </li>
+
+            <!-- Page 3 -->
+            <li class="page-item">
+                <a class="page-link" href="#">3</a>
+            </li>
+
+            <!-- Page 4 -->
+            <li class="page-item">
+                <a class="page-link" href="#">4</a>
+            </li>
+
+            <!-- Next -->
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</div>
+
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+```
+
+</body>
+</html>
